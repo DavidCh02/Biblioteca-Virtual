@@ -1,10 +1,10 @@
 import java.util.Date;
 
 public class Prestamo {
-    private int idPrestamo;
-    private String usuario;
-    private Date fechaPrestamo;
-    private Date fechaDevolucion;
+    public int idPrestamo;
+    public String usuario;
+    public Date fechaPrestamo;
+    public Date fechaDevolucion;
 
     // Constructor
     public Prestamo(int idPrestamo, Usuario usuario, Date fechaPrestamo, Date fechaDevolucion) {
