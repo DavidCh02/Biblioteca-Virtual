@@ -1,9 +1,9 @@
 import java.util.Date;
 
 public class Reserva {
-    private int idReserva;
-    private String usuarioSolicita;
-    private Date fechaReserva;
+    public int idReserva;
+    public String usuarioSolicita;
+    public Date fechaReserva;
 
     // Constructor
     public Reserva(int idReserva, Usuario usuarioSolicita, Date fechaReserva) {
