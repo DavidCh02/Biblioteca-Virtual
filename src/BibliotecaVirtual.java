@@ -8,9 +8,9 @@ import Elementos.Periodico;
 import Elementos.Revista;
 
 public class BibliotecaVirtual {
-    private String ubicacion;
-    private String nombre;
-    private String politicaReserva;
+    public String ubicacion;
+    public String nombre;
+    public String politicaReserva;
     private List<Item> elementos;
     private List<Prestamo> prestamos;
     private HashSet<Reserva> reservas;
