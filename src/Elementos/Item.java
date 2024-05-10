@@ -1,10 +1,10 @@
 package Elementos;
 
 public class Item {
-    private int id;
-    private String nombreItem;
-    private String tipoItem;
-    private String estadoItem;
+    public int id;
+    public String nombreItem;
+    public String tipoItem;
+    public String estadoItem;
 
     @Override
     public String toString() {
