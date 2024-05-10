@@ -1,9 +1,9 @@
 import java.util.Date;
 
 public class Usuario {
-        private int cedula;
-        private String nombre;
-        private String direccion;
+        public int cedula;
+        public String nombre;
+        public String direccion;
 
         // Constructor
         public Usuario(int cedula, String nombre, Date direccion) {
